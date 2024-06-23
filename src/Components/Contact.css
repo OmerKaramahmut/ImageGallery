@@ -1,0 +1,60 @@
+.contactPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  align-items: center;
+}
+.contactText {
+  width: 40vw;
+  font-size: 40px;
+  background-color: rgb(47, 47, 53);
+  border-radius: 100% 0% 100% 0% / 0% 49% 51% 100%;
+  padding: 120px 50px;
+  letter-spacing: 1px;
+  position: relative;
+}
+.profil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}
+.profil img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.profilText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .contactText {
+    font-size: 13px;
+    padding: 50px 20px;
+  }
+  .profil img {
+    width: 180px;
+    height: 180px;
+  }
+  .profilText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  .contactText p{
+    padding:10px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+}

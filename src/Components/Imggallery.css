@@ -1,0 +1,83 @@
+.Gallery img{
+    width: 300px;
+    height: 300px;
+  
+}
+
+.Gallery img:nth-child(1){
+    top: 1400px;
+    left: 1500px;
+    position: absolute;
+}
+.Gallery img:nth-child(2){
+    top: 1500px;
+    left: 1100px;
+    position: absolute;
+}
+
+.Gallery img:nth-child(3){
+    top: 1900px;
+    left: 1150px;
+    position: absolute;
+}
+
+.Gallery img:nth-child(4){
+    top: 1800px;
+    left: 1550px;
+    position: absolute;
+}
+
+@media only screen and (max-width:900px){
+    .Gallery img{
+        width: 170px;
+        height: 100px;
+       
+    }
+    
+.Gallery img:nth-child(1){
+    top: 1200px;
+    left: 50px;
+    position: absolute;
+}
+
+.Gallery img:nth-child(2){
+    top: 1300px;
+    left: 180px;
+    position: absolute;
+}
+.Gallery img:nth-child(3){
+    top: 1950px;
+    left: 50px;
+    position: absolute;
+}
+.Gallery img:nth-child(4){
+    top: 2000px;
+    left: 180px;
+    position: absolute;
+}    
+}
+
+@media only screen and (min-width:900px) and  (max-width:1024px){
+
+.Gallery img:nth-child(1){
+    top: 1850px;
+    left: 500px;
+    position: absolute;
+}
+
+.Gallery img:nth-child(2){
+    top: 2100px;
+    left: 650px;
+    position: absolute;
+}
+.Gallery img:nth-child(3){
+    top: 2650px;
+    left: 500px;
+    position: absolute;
+}
+.Gallery img:nth-child(4){
+    top: 2850px;
+    left: 650px;
+    position: absolute;
+}    
+}

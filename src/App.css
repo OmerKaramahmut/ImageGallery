@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ /* background-color: aquamarine; */
+ 
+}
+
+body{
+  background-color: #1a1721;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.Gallery{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+@media only screen and (max-width:900px) {
+
+  .Gallery{
+    justify-content: space-around;
+  }
+  
+}

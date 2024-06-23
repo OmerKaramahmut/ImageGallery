@@ -1,0 +1,41 @@
+.splitTextPage{
+    background-color: #1a1721;
+    width: 100%;
+    height: 130vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+}
+
+.splitText {
+  position: relative;
+  color: #fff;
+  font-size: 40px;
+  width: 40vw;
+  margin-left: 10vw;
+  text-transform: uppercase;
+
+  letter-spacing: 8px;
+
+}
+
+.splitText p {
+  margin: 0px;
+  position: relative;
+}
+@media only screen and (max-width:900px){
+  .splitTextPage{
+    align-items: flex-start;
+    height: 50vh;
+    gap: 750px;
+  }
+  .splitText{
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+    
+  }
+}
